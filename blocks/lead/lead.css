@@ -1,0 +1,25 @@
+.lead {
+  width: calc(100% - 100px * 2);
+  margin: 0 auto 92px;
+  /* border: yellow 1px solid; */
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: calc(100% + 2 * 16px);
+    margin: 0 -16px 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 64px;
+  }
+}

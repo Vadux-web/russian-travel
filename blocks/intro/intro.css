@@ -1,0 +1,23 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: start;
+  width: calc(100% - 100px * 2);
+  margin: 0 auto 92px;
+  /* border: yellow 1px solid; */
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100%);
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: calc(100% - 32px);
+    margin: 0 auto 64px;
+  }
+}
