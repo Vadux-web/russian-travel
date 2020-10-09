@@ -4,11 +4,16 @@
   align-items: center;
   margin: 28px auto 56px;
   justify-content: space-between;
-  /* border: 1px solid yellow; */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1279px) {
   .header {
-    margin: 28px 16px 48px;
+    margin: 28px auto 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin: 16px auto 48px;
   }
 }

@@ -1,7 +1,6 @@
 .lead {
   width: calc(100% - 100px * 2);
   margin: 0 auto 92px;
-  /* border: yellow 1px solid; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,16 +9,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead {
-    width: calc(100% + 2 * 16px);
-    margin: 0 -16px 88px;
+    width: calc(100% + 2 * 24px);
+    margin: 0 -24px 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead {
-    width: 100%;
-    margin: 0 auto 64px;
+    width: calc(100% + 2 * 16px);
+    margin: 0 -16px 64px;
   }
 }

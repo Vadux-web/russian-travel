@@ -1,9 +1,0 @@
-.place__paragraph_text {
-  font-size: 18px;
-  line-height: 163%;
-  margin: 0 0 24px 0;
-}
-
-.place__paragraph_text:nth-last-of-type(1) {
-  margin-bottom: 0;
-}
