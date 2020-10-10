@@ -3,12 +3,14 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 1.2;
+  width: 640px;
   margin: 0 auto 64px;
 }
 
-.lead__subtitle:nth-of-type(1) {
+
+/* .lead__subtitle:nth-of-type(1) {
   margin: 0 auto 0;
-}
+} */
 
 @media screen and (max-width: 1279px) {
   .lead__subtitle {
@@ -20,6 +22,7 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
+    width: 288px;
     margin: 0 auto 40px;
   }
 }

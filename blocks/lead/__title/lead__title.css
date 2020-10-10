@@ -3,17 +3,17 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
+    width: 620px;
     margin: 0 auto 32px;
   }
-  
-  .lead__title:nth-of-type(1) {
+  /* .lead__title:nth-of-type(1) {
     margin: 0 auto 0;
-  }
+  } */
   
   @media screen and (max-width: 767px) {
     .lead__title {
       font-size: 40px;
-      width: 100%;
+      width: 288px;
       line-height: 44px;
       margin: 0 auto 16px;
     }
